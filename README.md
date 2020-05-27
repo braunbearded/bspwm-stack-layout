@@ -9,8 +9,11 @@ moving operation on it. This script is pretty much a copy from this
 [reddit post](https://www.reddit.com/r/bspwm/comments/euq5r7/a_dwmlike_stack_layout_script_for_bspwm/)
 from reddit user [w0ntfix](https://www.reddit.com/user/w0ntfix).
 
-I fixed some stuff, made it fully posix compliant and added a layout per
-desktop option, toggle script and "layout per desktop" option.
+Some stuff I changed/added:
+- fully posix compliant
+- fix floating windows bug
+- stack-layout per desktop option
+- toggle script
 
 Check out toggle-stack-layout.sh if you want to toggle stack-layout.sh
 
@@ -19,7 +22,6 @@ Put toggle-stack-layout.sh and stack-layout.sh somewhere in your path, so that
 you are able to run it from anywhere.
 
 ### Dependencies
-- jq
 - bspwm
 - awk
 - dunst(ify)
